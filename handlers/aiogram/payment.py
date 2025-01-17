@@ -48,10 +48,6 @@ async def successful_payment(message: Message):
         message_effect_id="5046509860389126442",
         reply_markup=main_menu(),
     )
-    await bot.refund_star_payment(
-        user_id=message.chat.id,
-        telegram_payment_charge_id=message.successful_payment.telegram_payment_charge_id,
-    )
     await bot.send_message(
         chat_id=settings.ADMIN_ID,
         text=(
