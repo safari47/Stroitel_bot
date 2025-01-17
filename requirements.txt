@@ -1,0 +1,14 @@
+pyrotgfork
+loguru
+pydantic
+pydantic-settings
+pydantic_core
+tgcrypto
+rapidfuzz
+aiogram
+aiosqlite
+sqlalchemy
+redis
+faststream
+pymorphy2
+setuptools
