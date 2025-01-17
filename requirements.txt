@@ -1,4 +1,4 @@
-pyrotgfork
+kurigram==v2.1.36
 loguru
 pydantic
 pydantic-settings
@@ -10,5 +10,4 @@ aiosqlite
 sqlalchemy
 redis
 faststream
-pymorphy2
 setuptools
